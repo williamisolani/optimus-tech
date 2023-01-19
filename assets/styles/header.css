@@ -1,0 +1,56 @@
+header{
+    display:flex;
+}
+
+.header__logo{
+    display:flex;
+    align-items:center;
+    padding-right: 8em;
+}
+
+.header__logo-img{
+    padding-right: .5em;
+}
+
+.header__logo-txt{
+    color: var(--cinza-escuro);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.header__opcoes{
+    display:flex;
+    align-items:center;
+}
+
+.header__link{
+    color: var(--fonte-cinza-claro);
+    padding:0 1em;
+
+}
+
+.header__botoes{
+    display:flex;
+    align-items:center;
+    margin-left: auto;
+}
+
+.header__botao-vermelho{
+    background: var(--cor-vinho);
+    border-radius: 8px;
+    padding: 1em 1.25em;
+    color: white;
+}
+
+.header__botao-vermelho:hover{
+    background: #5f0000;
+    color: #FFFFFF !important;
+    transform: scale(1) !important;
+}
+
+.header__link:hover{
+    color: #5f0000;
+    transition: 300ms;
+    transform: scale(1.05)
+}

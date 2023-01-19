@@ -1,0 +1,30 @@
+.vagas{
+    margin: 0 25em;
+}
+
+.vagas__categoria{
+    color: var(--fonte-preto);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 2em 0;
+}
+
+.vagas__cargos-titulo{
+    color: var(--fonte-preto);
+    font-size: 18px;
+    font-weight:500;
+    line-height: 28px;
+}
+
+.vagas__cargos-descricao{
+    color: var(--fonte-cinza-claro);
+    margin: 1em 0
+}
+
+.vagas__cargos{
+    border: 1px solid var(--cor-cinza-borda);
+    border-radius: 16px;
+    padding: 1em 0 .5em 1em;
+    margin-bottom: 1.5em;
+}

@@ -1,0 +1,27 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("dados.css");
+@import url("banner__vagas.css");
+@import url("vagas.css");
+@import url("depoimento.css");
+@import url("footer.css");
+
+:root{
+    --fonte-principal: 'Inter';
+    --fonte-cinza-escuro: #3A404E;
+    --fonte-preto: #101828;
+    --fonte-cinza-claro: #667085;
+    --fonte-cinza-rodape: #98A2B3;
+    --cor-vinho: #8E2424;
+    --cor-cinza-borda: #EAECF0;
+    --cor-off-white: #F9FAFB;
+}
+
+body{
+    font-family:var(--fonte-principal);
+    font-size:16px;
+}
+
+.margin{
+    padding: 1.5em 8em;
+}

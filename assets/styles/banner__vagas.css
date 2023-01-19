@@ -1,0 +1,36 @@
+.banner__vagas{
+    text-align: center;
+    padding: 8em 0 0 0;
+}
+
+.banner__vagas-subtitulo{
+    color: var(--cor-vinho);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    background-color: rgba(142, 36, 36, .05);
+    border-radius: 16px;
+    text-align: start;
+    width: 115px;
+    margin: auto;
+    padding-left: 1em;
+}
+
+.banner__vagas-titulo{
+    color: var(--fonte-preto);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    padding: 0.5em 0;
+}
+
+.banner__vagas-texto{
+    color: var(--fonte-cinza-claro);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner__vagas-img{
+    padding: 4em 0
+}
